@@ -76,9 +76,11 @@ export default function Header() {
     }
   };
 
+  const padding = '0';
+
   return (
     <StyledHeader>
-      <Container>
+      <Container $padding={padding}>
         <StyledInner>
           <StyledWrapperBurgerLogo>
             <StyledBurger

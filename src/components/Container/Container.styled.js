@@ -11,6 +11,10 @@ export const StyledContainer = styled.div`
     padding: 0 32px;
   }
 
+  @media screen and (min-width: 1280px) {
+    padding: ${props => props.$padding};
+  }
+
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
     padding: 0 160px;

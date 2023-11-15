@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {
   Navigation,
@@ -13,6 +13,24 @@ import 'swiper/css/pagination';
 import { dataVideo } from '../../data/dataVideo';
 
 export default function SliderVideo() {
+  const [activeVideoIdx, setActiveVideoIdx] = useState(null);
+
+  const handlePlay = event => {
+    setActiveVideoIdx(event.target.dataset.id);
+  };
+
+  const handleSlideChange = swiper => {
+    const activeSlideIdx = swiper.slides[swiper.activeIndex];
+    let videoElement = '';
+    if (activeSlideIdx !== activeVideoIdx)
+      videoElement = document.querySelector(
+        `[data-id="${activeVideoIdx}"] video`
+      );
+    if (videoElement) {
+      videoElement.pause();
+    }
+  };
+
   return (
     <StyledSwiperVideo
       modules={[Navigation, Pagination, Scrollbar, A11y, Keyboard]}
@@ -21,9 +39,10 @@ export default function SliderVideo() {
       keyboard={{ enabled: true }}
       centeredSlides={true}
       loop={true}
+      onSlideChange={swiper => handleSlideChange(swiper)}
     >
       {dataVideo.map((video, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} data-id={index}>
           <video
             width="342"
             height="376"
@@ -31,6 +50,8 @@ export default function SliderVideo() {
             poster={video.poster}
             controls
             preload="none"
+            data-id={index}
+            onPlay={event => handlePlay(event)}
           ></video>
         </SwiperSlide>
       ))}
@@ -73,8 +94,9 @@ export const StyledSwiperVideo = styled(Swiper)`
   .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    border: 1px solid #887b79;
+    border: 1px solid var(--bg-brown);
     background-color: #f2f1f3;
+    opacity: 1;
   }
   .swiper-pagination-bullet-active {
     background-color: var(--bg-primery);

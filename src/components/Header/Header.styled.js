@@ -37,9 +37,14 @@ export const StyledLogo = styled(Link)`
 export const StyledNavList = styled.nav`
   display: none;
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
+    /* here min-width: 1440px */
     display: flex;
     align-items: center;
+    gap: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
     gap: 32px;
   }
 `;
@@ -85,7 +90,8 @@ export const StyledBurger = styled.button`
   border: none;
   background: none;
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
+    /* here min-width: 1440px */
     display: none;
   }
 `;
