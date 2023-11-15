@@ -271,6 +271,13 @@ const dataAllFeedback = [
     path_page: 'satisfaction',
     dataSlider: [
       {
+        src: satisfactionFourth,
+        webpSrc: satisfactionFourthWebp,
+        alt: 'Feedback about practice services',
+        width: '120',
+        height: '189',
+      },
+      {
         src: satisfactionFirst,
         webpSrc: satisfactionFirstWebp,
         alt: 'Feedback about practice services',
@@ -287,13 +294,6 @@ const dataAllFeedback = [
       {
         src: satisfactionThird,
         webpSrc: satisfactionThirdWebp,
-        alt: 'Feedback about practice services',
-        width: '120',
-        height: '189',
-      },
-      {
-        src: satisfactionFourth,
-        webpSrc: satisfactionFourthWebp,
         alt: 'Feedback about practice services',
         width: '120',
         height: '189',

@@ -17,7 +17,7 @@ export const StyledServicesList = styled.ul`
 
   @media screen and (min-width: 1440px) {
     max-width: 1120px;
-    column-gap: 32px;
+    column-gap: 31.5px;
     row-gap: 88px;
   }
 `;
