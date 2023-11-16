@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/oksana-openko-site/static/css/main.56faa055.css",
-    "main.js": "/oksana-openko-site/static/js/main.cda940c9.js",
+    "main.js": "/oksana-openko-site/static/js/main.810783e5.js",
     "static/css/957.3c2edce8.chunk.css": "/oksana-openko-site/static/css/957.3c2edce8.chunk.css",
-    "static/js/957.c2a1cc41.chunk.js": "/oksana-openko-site/static/js/957.c2a1cc41.chunk.js",
+    "static/js/957.66ef5f27.chunk.js": "/oksana-openko-site/static/js/957.66ef5f27.chunk.js",
     "static/js/565.e43aff86.chunk.js": "/oksana-openko-site/static/js/565.e43aff86.chunk.js",
     "static/css/946.c9e1cc57.chunk.css": "/oksana-openko-site/static/css/946.c9e1cc57.chunk.css",
     "static/js/946.fed07922.chunk.js": "/oksana-openko-site/static/js/946.fed07922.chunk.js",
@@ -144,9 +144,9 @@
     "static/media/consultation.webp": "/oksana-openko-site/static/media/consultation.6f5bcb3488a51198a417.webp",
     "index.html": "/oksana-openko-site/index.html",
     "main.56faa055.css.map": "/oksana-openko-site/static/css/main.56faa055.css.map",
-    "main.cda940c9.js.map": "/oksana-openko-site/static/js/main.cda940c9.js.map",
+    "main.810783e5.js.map": "/oksana-openko-site/static/js/main.810783e5.js.map",
     "957.3c2edce8.chunk.css.map": "/oksana-openko-site/static/css/957.3c2edce8.chunk.css.map",
-    "957.c2a1cc41.chunk.js.map": "/oksana-openko-site/static/js/957.c2a1cc41.chunk.js.map",
+    "957.66ef5f27.chunk.js.map": "/oksana-openko-site/static/js/957.66ef5f27.chunk.js.map",
     "565.e43aff86.chunk.js.map": "/oksana-openko-site/static/js/565.e43aff86.chunk.js.map",
     "946.c9e1cc57.chunk.css.map": "/oksana-openko-site/static/css/946.c9e1cc57.chunk.css.map",
     "946.fed07922.chunk.js.map": "/oksana-openko-site/static/js/946.fed07922.chunk.js.map",
@@ -164,6 +164,6 @@
   },
   "entrypoints": [
     "static/css/main.56faa055.css",
-    "static/js/main.cda940c9.js"
+    "static/js/main.810783e5.js"
   ]
 }
