@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledServiceCard = styled.li`
   position: relative;
   width: 100%;
-  max-width: 343px;
+  /* max-width: 343px; */
   height: 366px;
   p {
     position: absolute;
@@ -27,11 +27,11 @@ export const StyledServiceCard = styled.li`
   img {
     width: 100%;
     object-fit: cover;
-    /* aspect-ratio: 343 / 366;  */
   }
 
   @media screen and (min-width: 768px) {
-    max-width: 221px;
+    width: calc((100% - 2 * 20.5px) / 3);
+    /* max-width: 221px; */
     height: 235px;
     p {
       height: 64px;
@@ -41,13 +41,11 @@ export const StyledServiceCard = styled.li`
       font-weight: 500;
       line-height: 1.2;
     }
-    img {
-      /* aspect-ratio: 221 / 235; */
-    }
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 352px;
+    width: calc((100% - 2 * 32px) / 3);
+    /* max-width: 352px; */
     height: 376px;
     p {
       height: 80px;
@@ -56,9 +54,6 @@ export const StyledServiceCard = styled.li`
       font-size: 24px;
       font-weight: 600;
       line-height: 1;
-    }
-    img {
-      /* aspect-ratio: 352 / 376; */
     }
   }
 `;
