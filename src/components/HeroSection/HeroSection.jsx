@@ -24,11 +24,11 @@ export default function HeroSection() {
   return (
     <>
       <section id="hero">
-        <StyledWrapper>
-          <StyledInner
-            data-script="assets/js/bootstrap.min.js"
-            className="lazyload"
-          >
+        <StyledWrapper
+          data-script="assets/js/bootstrap.min.js"
+          className="lazyload"
+        >
+          <StyledInner>
             <Container>
               <StyledContent>
                 <StyledPositionLeft>

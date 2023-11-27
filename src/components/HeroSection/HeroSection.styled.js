@@ -26,20 +26,14 @@ export const StyledInner = styled.div`
   width: 375px;
   min-height: 667px;
   margin: 0 auto;
-  /* background-image: url(${heroBgMobile});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 
   @media screen and (min-width: 768px) {
     width: 768px;
     min-height: 1024px;
-    /* background-image: url(${heroBgTablet}); */
   }
 
   @media screen and (min-width: 1440px) {
     width: 1440px;
-    /* background-image: url(${heroBgDesktop}); */
   }
 `;
 
