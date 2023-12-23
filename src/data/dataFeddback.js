@@ -69,6 +69,7 @@ import violence from '../assets/images/slider/about_section/sexual-violence.jpg'
 import courses_with_coach from '../assets/images/slider/about_section/courses_with_international_coach.jpg';
 import mono_multi_trauma from '../assets/images/slider/about_section/mono_multi_trauma.jpg';
 import creative_thinking from '../assets/images/slider/about_section/creative-thinking.jpg';
+import metaphorical_associative_maps from '../assets/images/slider/about_section/metaphorical_associative_maps.jpg';
 import main_diplomWebp from '../assets/images/slider/about_section/main_diplom.webp';
 import basicWebp from '../assets/images/slider/about_section/basic_ph.webp';
 import traumaWebp from '../assets/images/slider/about_section/trauma_treatment.webp';
@@ -77,6 +78,7 @@ import violenceWebp from '../assets/images/slider/about_section/sexual-violence.
 import courses_with_coachWebp from '../assets/images/slider/about_section/courses_with_international_coach.webp';
 import mono_multi_traumaWebp from '../assets/images/slider/about_section/mono_multi_trauma.webp';
 import creative_thinkingWebp from '../assets/images/slider/about_section/creative-thinking.webp';
+import metaphorical_associative_mapsWebp from '../assets/images/slider/about_section/metaphorical_associative_maps.webp';
 
 const dataAllFeedback = [
   {
@@ -364,6 +366,13 @@ const dataAllFeedback = [
         webpSrc: creative_thinkingWebp,
         alt: 'Sertificate of Successfully Complited Seminar of Creative Thinking in Trauma Treatment',
         width: '141',
+        height: '204',
+      },
+      {
+        src: metaphorical_associative_maps,
+        webpSrc: metaphorical_associative_mapsWebp,
+        alt: 'Certificate of complited of the metaphorical associative maps course',
+        width: '324',
         height: '204',
       },
     ],
